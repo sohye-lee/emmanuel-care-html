@@ -1,0 +1,33 @@
+
+// COLORS
+$color-primary: #BB3049;
+$color-primary-dark: #66132A;
+$color-secondary-light: #EEE6E2;
+$color-secondary: #C8A294;
+$color-secondary-dark: #74564B;
+$color-text-color: #241B18;
+$color-black: #000;
+$color-white: #fff;
+$color-gray-light: #ECECEC;
+$color-gray-medium: #D4D4D4;
+$bg-gradient: linear-gradient(90deg, #310202 6.98%, rgba(49, 13, 13, 0.00) 85.94%), url(<path-to-image>) lightgray -17.867px -218.484px / 119.309% 178.128% no-repeat;
+
+// VIEWPOINTS
+$bp-mobile-max: 499px; // mobile under 499px
+$bp-tablet-sm-min: 500px;
+$bp-tablet-sm-max: 768px; // small tablet under 768px
+$bp-tablet-lg-min: 769px;
+$bp-tablet-lg-max: 1024px; // large tablet under 1024px
+$bp-desktop-sm-min: 1025px;
+$bp-desktop-sm-max: 1201px; // small monitor under 1280px
+$bp-desktop-lg-min: 1202px;
+$bp-desktop-lg-max: 1440px; // large monitor under 1440px
+$bp-desktop-xl-min: 1441px;
+
+// LAYOUT 
+$container-width: 1182px;
+$container-padding: 16px;
+$gap-lg: 40px;
+$gap-md: 24px;
+$gap-sm: 20px;
+$gap-xs: 8px;
