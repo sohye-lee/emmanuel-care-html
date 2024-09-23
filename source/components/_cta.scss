@@ -1,0 +1,36 @@
+// JOIN CTA
+.join-cta {
+    width: 100%;
+    background: url('/images/join-cta.jpg') center/cover no-repeat;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 600px;
+        width: 100%;
+    }
+}
+
+// CONTACT CTA
+.contact-cta {
+    width: 100%;
+    background-color: $color-secondary-dark;
+
+    .ec-container {
+        padding: 50px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+
+        .left-content {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .right-form {
+
+        }
+    }
+}

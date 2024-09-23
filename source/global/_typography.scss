@@ -41,11 +41,11 @@ a, .button {
 }
 
 .text-white {
-    color: $color-white;
+    color: $color-white !important;
 }
 
 .text-black {
-    color: $color-black;
+    color: $color-text;
 }
 
 .text-primary {

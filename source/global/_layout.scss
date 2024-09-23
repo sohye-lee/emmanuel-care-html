@@ -2,11 +2,48 @@
     max-width: 1202px;
     width: 100%;
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 50px 16px;
 
     @media (min-width: $bp-desktop-sm-max) {
         max-width: 1202px !important;
     }
 }
 
+.ec-title {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    &.center {
+        justify-content: center;
+    }
+    img {
+        width: 28px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    h2 {
+        color: $color-primary-dark;
+        font-family: 'Rufina', serif;
+        font-size: 38px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+ 
+}
+
+.ec-description {
+    color: $color-black;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    &.center {
+        text-align: center;
+    }
+
+    &.featured {
+        border-left: 3px solid $color-primary;
+        padding-left: 12px;
+    }
+}

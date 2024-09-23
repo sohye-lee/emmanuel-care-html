@@ -6,4 +6,8 @@
 
 main {
     padding-top: 130px;
+
+    @media (max-width: $bp-desktop-sm-max) {
+        padding-top: 90px;
+    }
 }

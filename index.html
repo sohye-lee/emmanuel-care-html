@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Compiled CSS File -->
     <link href="/build/index.css" rel="stylesheet" >
     <!-- Bootstrap 5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" crossorigin="anonymous">
+    <!-- Swiper JS (Slider) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Care</title>
@@ -31,12 +35,12 @@
                 </a>
                 <nav class="navigation">
                     <ul>
-                        <li class="nav-item"><a href="/about">Why Us</a></li>
-                        <li class="nav-item"><a href="/about">Services</a></li>
-                        <li class="nav-item"><a href="/about">Programs</a></li>
-                        <li class="nav-item"><a href="/about">Life at Emmanuel</a></li>
-                        <li class="nav-item"><a href="/about">How to Join</a></li>
-                        <li class="nav-item button secondary-dark"><a href="/contact">Contact Us</a></li>
+                        <li class="nav-item"><a href="/about.html">Why Us</a></li>
+                        <li class="nav-item"><a href="/services.html">Services</a></li>
+                        <li class="nav-item"><a href="/programs.html">Programs</a></li>
+                        <li class="nav-item"><a href="/blog.html">Life at Emmanuel</a></li>
+                        <li class="nav-item"><a href="/how-to-join.html">How to Join</a></li>
+                        <li class="nav-item button secondary-dark"><a href="/contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
                 <div id="mobile-nav" class="mobile-nav">
@@ -78,7 +82,7 @@
                 <div class="slider slider-2"></div>
                 <div class="slider slider-3"></div>
                 <div class="bg_overlay"></div>
-                <div class="container">
+                <div class="ec-container">
                     <div class="hero-content">
                         <h1>Compassionate Senior Day Care for a Brighter Tomorrow</h1>
                         <p>At Emmanuel Care, we provide the highest quality of care and comfort for your loved ones, ensuring they thrive in a loving, safe, and engaging environment.</p>
@@ -90,7 +94,7 @@
             </div>
             <!-- HERO ENDS-->
 
-            <!-- HERO -->
+            <!-- ABOUT -->
             <div class="home-about">
                 <div class="ec-container">
                     <div class="left-video">
@@ -100,10 +104,197 @@
                         </video>
                     </div>
                     <div class="right-content">
-
+                        <div class="ec-title">
+                            <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
+                            <h2>
+                                About Emmanuel Care
+                            </h2>
+                        </div>
+                        <div class="ec-description">
+                            Emmanuel Care is more than a day care center; we are a community dedicated to the well-being of seniors. Our mission is to provide a nurturing environment where seniors feel valued, engaged, and cared for. With a team of highly trained staff and a warm, inviting atmosphere, we create a home away from home for seniors.
+                        </div>
+                        <div class="button-wrapper">
+                            <a href="#" class="button primary-dark">Read more about our story</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- ABOUT ENDS -->
+
+            <!-- SERVICES -->
+             <div class="home-services">
+                <div class="ec-container">
+
+                    <div class="ec-title center">
+                        <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
+                        <h2>
+                            Services We Offer
+                        </h2>
+                    </div>
+                    <div class="ec-description center">We offer a range of specialized services designed to enhance the physical, emotional, and social well-being of our clients.</div>
+                    <div class="services-grid">
+                        <a href="/services#personal-care" class="services-item">
+                            <img src="/images/services_care.jpg" alt="Personal Care">
+                            <p class="h4">Personal Care & Assistance</p>
+                        </a>
+                          <a href="/services#health-monitoring" class="services-item"> 
+                            <img src="/images/services_monitoring.jpg" alt="Health Monitoring">
+                            <p class="h4">Health Monitoring</p>
+                        </a>
+                        <a href="/services#physical-therapy" class="services-item">
+                            <img src="/images/services_therapy.jpg" alt="Physical Therapy">
+                            <p class="h4">Physical Therapy</p>
+                        </a>
+                               <a href="/services#engaging-activities" class="services-item"> 
+                            <img src="/images/services_activities.jpg" alt="Engaging Activities">
+                            <p class="h4">Engaging Activities</p>
+                        </a>
+                          <a href="/services#transportation-services" class="services-item"> 
+                            <img src="/images/services_transportation.jpg" alt="Transportation Services">
+                            <p class="h4">Transportation Services</p>
+                        </a>
+                        <a href="/services#nutritious-meals" class="services-item">
+                            <img src="/images/services_meal.jpg" alt="Nutritious Meals">
+                            <p class="h4">Nutritious Meals</p>
+                        </a>
+                    </div>
+                </div>
+             </div>
+            <!-- SERVICES ENDS -->
+
+            <!-- WHY US CTA -->
+             <div class="home-whyus">
+                <div class="bg-img"></div>
+                <div class="ec-container">
+                    <div class="left-content">
+                        <div class="ec-title">
+                            <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
+                            <h2 class="text-white">
+                                Why Emmanuel Care?
+                            </h2>
+                        </div>
+                        <div class="ec-description text-white">
+                            Choosing the right senior day care for your loved one is important. Here’s why families trust Emmanuel Care:
+                        </div>
+                        <div class="icon-list">
+                            <div class="icon-list__item">
+                                <img src="/images/icons/icon-check-white.svg" alt="check icon" aria-hidden="true">
+                                <p class="text-white">Experienced and compassionate caregivers</p>
+                            </div>
+                             <div class="icon-list__item">
+                                <img src="/images/icons/icon-check-white.svg" alt="check icon" aria-hidden="true">
+                                <p class="text-white">Personalized care plans</p>
+                            </div>
+                             <div class="icon-list__item">
+                                <img src="/images/icons/icon-check-white.svg" alt="check icon" aria-hidden="true">
+                                <p class="text-white">Vibrant and engaging activities</p>
+                            </div>
+                             <div class="icon-list__item">
+                                <img src="/images/icons/icon-check-white.svg" alt="check icon" aria-hidden="true">
+                                <p class="text-white">State-of-the-art facilities</p>
+                            </div>
+                             <div class="icon-list__item">
+                                <img src="/images/icons/icon-check-white.svg" alt="check icon" aria-hidden="true">
+                                <p class="text-white">Safe, secure, and welcoming environment</p>
+                            </div>
+                        </div>
+                        <div class="button-wrapper">
+                            <a href="" class="button secondary">Schedule a Visit Today</a>
+                        </div>
+                    </div>
+                     
+                </div>
+                <div class="right-img"></div>
+
+             </div>
+            <!-- WHY US CTA ENDS -->
+
+            <!-- TESTIMONIALS -->
+             <div class="home-testimonial">
+                <div class="ec-container">
+
+                    <div class="ec-title center">
+                        <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
+                        <h2>
+                            What Families Are Saying
+                        </h2>
+                    </div>
+                    <div class="ec-description center">Don’t just take our word for it—see what the families of our clients have to say about Emmanuel Care.</div>
+                    <div class="testimonials-box">
+                        <!-- Slider main container -->
+                        <div class="swiper" id="testimonials">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+
+                                        <img class="icon-quote" src="/images/icons/icon-quote.svg" >
+                                        <p class="ec-description">
+                                            Choosing Emmanuel Care for my mother was the best decision we could have made. The staff is so compassionate and attentive, and they truly treat her like family. She looks forward to the activities every day, and the transportation service has been a lifesaver for our family’s busy schedule. I couldn’t recommend them more highly!
+                                        </p>
+                                        <p class="text-primary-dark">
+                                            — Sarah J., Daughter of Resident
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+
+                                        <img class="icon-quote" src="/images/icons/icon-quote.svg" >
+                                        <p class="ec-description">
+                                            We were struggling to find a place where my father could receive the care and attention he needed. Emmanuel Care has been a blessing for us. The personalized activities keep him engaged, and I can see the positive difference in his mood and energy levels. The whole team is wonderful!
+                                        </p>
+                                        <p class="text-primary-dark">
+                                            — Michael R., Son of Resident
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+
+                                        <img class="icon-quote" src="/images/icons/icon-quote.svg" >
+                                        <p class="ec-description">
+                                            This is a adult medical daycare center that offers seniors a comfortable and enjoyable living environment, a wide range of activities to suit their interests. It is a place that strives to improve the well-being and happiness of older adults.
+                                        </p>
+                                        <p class="text-primary-dark">
+                                            — Soojung L.
+                                        </p>
+                                    </div>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+             </div>
+            <!-- TESTIMONIALS ENDS -->
+
+            <!-- JOIN CTA -->
+             <div class="join-cta">
+                <div class="ec-container">
+                    <div class="content">
+                        <div class="ec-title">
+                            <img src="/images/icons/icon-heart-white.svg" alt="heart icon" aria-hidden="true" >
+                            <h2 class="text-white">
+                                What Families Are Saying
+                            </h2>
+                        </div>
+                        <div class="ec-description text-white">
+                            At Emmanuel Care, we welcome you with open arms. Our warm and supportive community is here to provide your loved ones with compassionate care, engaging activities, and a sense of belonging. Whether you're looking for day care services or just curious about how we can support your family, we’re excited to meet you. Join us today and discover the joy and comfort that awaits at Emmanuel Care.
+                        </div>
+                        <div class="button-wrapper">
+                            <a href="#" class="button white">Contact us to schedule a tour</a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- JOIN CTA ENDS -->
 
         </div>
     </main>
@@ -170,8 +361,12 @@
     </footer>
     <!-- FOOTER ENDS -->
 
-
-    <script src="index.js" defer></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Main JS File -->
+    <script src="/js/index.js" defer></script>
+    <script src="/js/header.js" type="module"></script>
+    <script src="/js/footer.js" type="module"></script>
      
 </body>
 </html>
