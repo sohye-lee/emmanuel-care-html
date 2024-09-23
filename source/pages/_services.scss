@@ -30,14 +30,85 @@
                         padding: 16px;
                         display: flex;
                         flex-direction: column;
+                        justify-content: flex-end;
                         gap: 12px;
                         background-position: center;
                         background-size: cover;
-                        
+                        min-height: 280px;
+                        position: relative;
+                        overflow: hidden;
+
+                        .bg_overlay {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background-color: $color-black;
+                            opacity: 0.5;
+                        }
+
+                        .content {
+                            position: relative;
+                            height: 100%;
+                            transform: translateY(calc(100% - 56px));
+                            transition: all 500ms;
+                            
+                            .title {
+                                height: 72px;
+                            }
+                            .description {
+                                font-size: 16px;
+                                line-height: 1.3;
+                            }
+                        }
+
+                        &:hover {
+                            .bg_overlay {
+                                opacity: 0.8;
+                            }
+
+                            .content {
+                                transform: translateY(0);
+                            }
+
+                        }
 
                        &.item-1 {
-
+                            background-image: url('/images/services_care.jpg');
                        }
+
+                        &.item-2 {
+                            background-image: url('/images/services_monitoring.jpg');
+                       }
+
+                        &.item-3 {
+                            background-image: url('/images/services_therapy.jpg');
+                       }
+
+                        &.item-4 {
+                            background-image: url('/images/services_activities.jpg');
+                       }
+
+                        &.item-5 {
+                            background-image: url('/images/services_transportation.jpg');
+                       }
+
+                        &.item-6 {
+                            background-image: url('/images/services_meal.jpg');
+                       }
+
+                        &.item-7 {
+                            background-image: url('/images/services_care.jpg');
+                       }
+
+                        &.item-8 {
+                            background-image: url('/images/services_care.jpg');
+                       }
+
+
+
+                       
                     }
 
                 }
