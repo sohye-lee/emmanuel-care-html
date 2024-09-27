@@ -30,7 +30,7 @@
             animation: slider2 9s infinite;
         }
          &.slider-3 {
-            background-image: url('/images/group-costume-1.jpg');
+            background-image: url('/images/why_us/whyus_1.jpg');
             animation: slider3 9s infinite;
         }
     }
@@ -271,6 +271,7 @@
         display: flex;
         flex-direction: column;
         gap: 24px;
+
         .testimonials-box {
             width: 100%;
             overflow: visible;
@@ -283,6 +284,7 @@
                 .swiper-slide {
                     padding: 0 12px;
                     height: auto;
+
                     .testimonial-item {
                         display: flex;
                         padding: 24px 32px;
