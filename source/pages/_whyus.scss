@@ -34,6 +34,7 @@
 
             .title {
                 text-align: center;
+                font-size: 22px;
             }
 
 
@@ -50,4 +51,56 @@
         flex-direction: column;
         gap: 24px;
     }
+}
+
+.whyus-summary { 
+    .ec-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+
+    .whyus-content {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        .content-item {
+            display: flex;
+            align-items: stretch;
+            background-color: $color-secondary-dark;
+            gap: 10px;
+
+            .img-box {
+                width: 30%;
+                overflow: hidden;
+                flex-shrink: 0;
+                aspect-ratio: 4 / 3;
+                position: relative;
+                img {
+                    position: relative;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .text-box {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                justify-content: center;
+
+                p {
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+}
+
+.whyus-license {
+    width: 100%;
+    background-color: $color-primary-dark;
 }

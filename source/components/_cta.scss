@@ -17,6 +17,22 @@
     width: 100%;
     background-color: $color-secondary-dark;
 
+    &.contact-page {
+        background-color: $color-gray-light;
+
+        .right-form {
+            input, textarea {
+                border-color: $color-secondary-dark;
+                color: $color-secondary-dark;
+                &::placeholder {
+                    color: $color-secondary-dark;
+                    opacity: 0.8;
+                }
+                
+            }
+        }
+    }
+
     .ec-container {
         padding: 50px 0;
         display: grid;
