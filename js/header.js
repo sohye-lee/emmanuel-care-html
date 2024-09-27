@@ -25,7 +25,6 @@ class MyHeader extends HTMLElement {
                         <ul>
                             <li class="nav-item"><a href="/about">Why Us</a></li>
                             <li class="nav-item"><a href="/services">Services</a></li>
-                            <li class="nav-item"><a href="/programs">Programs</a></li>
                             <li class="nav-item"><a href="/blog">Life at Emmanuel</a></li>
                             <li class="nav-item"><a href="/how-to-join">How to Join</a></li>
                             <li class="nav-item button secondary-dark"><a href="/contact">Contact Us</a></li>
@@ -39,12 +38,11 @@ class MyHeader extends HTMLElement {
                             </div>
                             <nav class="mobile-navigation">
                                 <ul>
-                                    <li class="nav-item"><a href="/about.html">Why Us</a></li>
-                                    <li class="nav-item"><a href="/services.html">Services</a></li>
-                                    <li class="nav-item"><a href="/programs.html">Programs</a></li>
-                                    <li class="nav-item"><a href="/blog.html">Life at Emmanuel</a></li>
-                                    <li class="nav-item"><a href="/how-to-join.html">How to Join</a></li>
-                                    <li class="nav-item button secondary-dark"><a href="/contact.html">Contact Us</a></li>
+                                    <li class="nav-item"><a href="/about">Why Us</a></li>
+                                    <li class="nav-item"><a href="/services">Services</a></li>
+                                    <li class="nav-item"><a href="/blog">Life at Emmanuel</a></li>
+                                    <li class="nav-item"><a href="/how-to-join">How to Join</a></li>
+                                    <li class="nav-item button secondary-dark"><a href="/contact">Contact Us</a></li>
                                 </ul>
                                 <div class="social-links">
                                     <a href="" class="social-facebook"><img src="/images/icons/icon-facebook-dark.svg" alt="Facebook icon" ></a>

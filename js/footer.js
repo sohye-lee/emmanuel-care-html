@@ -31,11 +31,10 @@ class MyFooter extends HTMLElement {
                     <div class="widget-title h3 text-white"> 
                         Quick Links
                     </div>
-                    <a href="#">FAQs</a>
-                    <a href="#">How to Pay</a>
-                    <a href="#">Life at Emmanuel</a>
-                    <a href="#">Services</a>
-                    <a href="#">Programs</a>
+                    <a href="/how-to-join#faqs">FAQs</a>
+                    <a href="/how-to-join#how-to-pay">How to Pay</a>
+                    <a href="/blog">Life at Emmanuel</a>
+                    <a href="/services">Services</a>
                 </div>
                 <div class="footer-col-4">
                     <div class="widget-title h3 text-white"> 
