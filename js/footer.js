@@ -5,7 +5,7 @@ class MyFooter extends HTMLElement {
             <div class="ec-container footer-wrapper">
                 <div class="footer-col-1">
                     <a href="/" class="logo">
-                        <img src="/images/logo-white.svg" alt="Emmanuel Care logo" >
+                        <img src="/images/logo-white.png" alt="Emmanuel Care logo" >
                     </a>
                     <span>Emmanuel Care was founded by a Registered Nurse (RN) with personal experience in caring for a loved one, so we understand the challenges families face when seeking quality senior care. As a locally operated center, we are able to provide exceptional, personalized care at an affordable price, without the overhead costs of larger franchised facilities.</span>
                     <div class="social-links"> 
