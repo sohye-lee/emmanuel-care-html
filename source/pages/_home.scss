@@ -13,7 +13,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-position: center;
+        background-position: center bottom;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -22,22 +22,24 @@
         z-index: 1;
 
         &.slider-1 {
-            background-image: url('/images/hero-1.jpg');
+            background-image: url('/images/home_hero/hero-1.jpg');
             animation: slider1 9s infinite;
         }
          &.slider-2 {
-            background-image: url('/images/group-game-1.jpg');
+            background-image: url('/images/home_hero/hero-2.jpg');
             animation: slider2 9s infinite;
         }
          &.slider-3 {
-            background-image: url('/images/why_us/whyus_1.jpg');
+            background-image: url('/images/home_hero/hero-3.jpg');
             animation: slider3 9s infinite;
+            background-position: center;
         }
     }
 
     .bg_overlay {
         z-index: 2;
-        background: linear-gradient(90deg, #310202 0%, rgba(49, 2, 2, 0.3) 86%);
+        background: linear-gradient(90.01deg, #2F5E8E 14.07%, rgba(49, 2, 2, 0.16) 86%);
+        opacity: 0.9;
     }
 
     .ec-container {
@@ -202,10 +204,10 @@
                 }
 
                 &:hover {
-                    background-color: $color-secondary-light;
+                    background-color: $color-primary-light;
 
                     p {
-                        color: $color-primary;
+                        color: $color-primary-dark-2;
                     }
                 }
             }
@@ -296,6 +298,7 @@
                         width: 100%;
                         height: 100%;
                         background-color: $color-white;
+
                     }
                     
                 }

@@ -22,14 +22,15 @@
 
         .right-form {
             input, textarea {
-                border-color: $color-secondary-dark;
-                color: $color-secondary-dark;
+                border-color: $color-primary-dark;
+                color: $color-primary-dark-2;
                 &::placeholder {
-                    color: $color-secondary-dark;
+                    color: $color-primary-dark;
                     opacity: 0.8;
                 }
                 
             }
+
         }
     }
 
@@ -43,6 +44,12 @@
             display: flex;
             flex-direction: column;
             gap: 24px;
+        }
+
+        .button.secondary {
+            &:hover {
+                border: 2px solid $color-white !important;
+            }
         }
 
     }
