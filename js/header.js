@@ -19,7 +19,7 @@ class MyHeader extends HTMLElement {
             <div class="header-main" id="header-main">
                 <div class="ec-container header-wrapper">
                     <a href="/" class="logo">
-                        <img src="/images/logo-color.png" alt="Emmanuel Care logo" >
+                        <img src="/images/logo-color.svg" alt="Emmanuel Care logo" >
                     </a>
                     <nav class="navigation">
                         <ul>

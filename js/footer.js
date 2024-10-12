@@ -5,7 +5,7 @@ class MyFooter extends HTMLElement {
             <div class="ec-container footer-wrapper">
                 <div class="footer-col-1">
                     <a href="/" class="logo">
-                        <img src="/images/logo-white.png" alt="Emmanuel Care logo" >
+                        <img src="/images/logo-white.svg" alt="Emmanuel Care logo" >
                     </a>
                     <span>Emmanuel Care was founded by a Registered Nurse (RN) with personal experience in caring for a loved one, so we understand the challenges families face when seeking quality senior care. As a locally operated center, we are able to provide exceptional, personalized care at an affordable price, without the overhead costs of larger franchised facilities.</span>
                     <div class="social-links"> 
@@ -50,11 +50,16 @@ class MyFooter extends HTMLElement {
                 
                 </div>
             </div>
-            <div class="ec-container bottom-bar">
-                <div class="copyright">© 2024 Emmanuel Care. All rights reserved. </div>
-                <div class="additional-links">
-                    <a href="">Privacy Policy</a>
-                    <div>Designed by <a href="https://websiteinnovator.com" target="_blank">Website Innovator</a>
+            <div class="ec-container bottom">
+                <div class="bottom-bar">
+                    <div class="copyright">© 2024 Emmanuel Care. All rights reserved. </div>
+                    <div class="additional-links">
+                        <a href="">Privacy Policy</a>
+                        <div>Designed by <a href="https://websiteinnovator.com" target="_blank">Website Innovator</a></div>
+                    </div>
+                </div>
+                <div class="bottom-bar">
+                    This institution is an equal opportunity provider. In accordance with Federal law and U.S. Department of Agriculture (USDA) civil rights regulations and policies, this institution is prohibited from discriminating on the basis of race, national origin, sex (including gender identity and sexual orientation), age, disability, and reprisal or retaliation for prior civil rights activity.
                 </div>
             </div>
         </footer>
