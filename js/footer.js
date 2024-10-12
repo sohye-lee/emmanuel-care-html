@@ -21,8 +21,8 @@ class MyFooter extends HTMLElement {
                     <span>8174 Lark Brown Road, Suite 201<br>Elkridge, MD 21075</span>
                     <span>Mon. - Fri. 9:00 AM - 5:00 PM</span>
                     <div>
-                        <a href="tel:+14432886677">P. (443) 288-6677</a><br>
-                        <a href="tel:+14432886677">F. (443) 288-6677</a>
+                        <a href="tel:+14438287777">P. (443) 828-7777</a><br>
+                        <a href="tel:+14438287777">F. (443) 828-7777</a>
                     </div>
                     <a href="mailto:info@emmanuel.care">info@emmanuel.care</a>
 

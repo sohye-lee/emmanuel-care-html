@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
         <header>
             <div class="header-top" id="header-top">
                 <div class="ec-container d-flex justify-content-between">
-                    <a href="tel:+14432886677" class="text-white d-flex align-items-center gap-3"><img src="/images/icons/icon-phone.svg" alt="phone icon" class="mr-2"> <span>Need help or have questions? Call us at (443) 288-6677</span></a>
+                    <a href="tel:+14438287777" class="text-white d-flex align-items-center gap-3"><img src="/images/icons/icon-phone.svg" alt="phone icon" class="mr-2"> <span>Need help or have questions? Call us at (443) 828-7777</span></a>
                     <div class="top-right">
                         <div class="social-links">
                             <a href="" class="social-facebook"><img src="/images/icons/icon-facebook.svg" alt="Facebook icon" ></a>
