@@ -10,12 +10,14 @@
     <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health Monitoring | Emmanuel Care</title>
+    <title>Nutritious Meals | Emmanuel Care</title>
     <!-- Favicons-->
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" type="image/png" href="/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Emmanuel Care" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -29,10 +31,10 @@
                 <div class="bg_overlay"></div>
                 <div class="ec-container">
                     <h1 class="text-white">
-                        Health Monitoring
+                        Dining Services
                     </h1>
                     <p class="breadcrumb text-white">
-                       <a href="/">Home</a> > <a href="/services">Services</a> > Health Monitoring
+                        <a href="/">Home</a> > <a href="/services">Services</a> > Dining Services
                     </p>
                 </div>
             </div>
@@ -41,129 +43,85 @@
             <!-- SERVICES GRID -->
             <div class="services-grid">
                 <div class="ec-container">
+
                     <!-- LEFT: Sidebar -->
-                    <div class="sidebar">
-                        <a href="/services" class="sidebar-item ">
-                            <div class="title">
-                                All Services
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/personal-care.html" class="sidebar-item ">
-                            <div class="title">
-                                Personal Care & Assistance
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/health-monitoring.html" class="sidebar-item active">
-                            <div class="title">
-                                Health Monitoring
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/physical-therapy.html" class="sidebar-item ">
-                            <div class="title">
-                                Physical Therapy
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/engaging-activities.html" class="sidebar-item">
-                            <div class="title">
-                                Engaging Activities
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/transportation-services.html" class="sidebar-item">
-                            <div class="title">
-                                Transportation Services
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/nutritious-meals.html" class="sidebar-item ">
-                            <div class="title">
-                                Nutritious Meals
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/tour-travel.html" class="sidebar-item">
-                            <div class="title">
-                                Tour & Travel
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/special-care.html" class="sidebar-item">
-                            <div class="title">
-                                Special Care
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                    </div>
+                     <my-service-sidebar></my-service-sidebar>
                     <!-- LEFT: Sidebar Ends-->
+
 
                     <!-- RIGHT: Content -->
                      <div class="right-content">
- 
-                        <!-- Section #1 -->
+                        
+                         <!-- Section #1 -->
                         <div class="section">
                             <div class="ec-title">
                                 <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
                                 <h2>
-                                    Proactive and Preventive Health Care
+                                   Nutritious & Delicious Dining Services
+                                </h2>
+                            </div>
+                            <p class="ec-description featured">
+                                At Emmanuel Care, we pride ourselves on offering top-tier dining services, prepared fresh daily in our fully equipped, professional kitchen. Our team of skilled chefs ensures that each meal is of the highest quality, made on-site to guarantee freshness and optimal timing. We understand the importance of nutrition in supporting the health and well-being of our participants, and we are dedicated to delivering meals that not only taste great but also provide essential nourishment.
+                            </p>
+                        </div>
+
+                        <!-- Section #2 -->
+                        <div class="section">
+                            <div class="ec-title">
+                                <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
+                                <h2>
+                                    Customized Meal Plans for Every Need
                                 </h2>
                             </div>
                             <p class="ec-description ">
-                                Our health monitoring services ensure that all residents receive the preventive care they need to maintain their health and well-being. Regular health assessments and ongoing monitoring of vital signs are conducted by our skilled nursing staff. We focus on:
+                                Our 4-week menu cycle is carefully designed and approved by a licensed dietitian to meet the nutritional needs of seniors. Each meal plan follows dietary guidelines that promote overall health, while special diet programs are available for those with unique health circumstances. We strive to cater to the individual needs of each participant, ensuring that their meals contribute positively to their health and well-being.
                             </p>
-                            <div class="icon-list">
+                          <div class="icon-list heart">
                                 <div class="icon-list__item">
-                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
-                                    <h3 class="h4 text-primary-dark">
-                                        Regular wellness checks
-                                    </h3>
+                                    <img src="/images/icons/icon-heart-filled.svg" alt="Heart Icon" aria-hidden="true">
+                                    <div class="content">
+                                        <h3 class="h4">
+                                            Nutritionally Balanced Meals
+                                        </h3>
+                                        <p>
+                                            Every dish is prepared with care to ensure it meets the dietary requirements for seniors, supporting overall health and wellness.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="icon-list__item">
-                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
-                                    <h3 class="h4 text-primary-dark">
-                                       Mobility Assistance and Transfers
-                                    </h3>
+                                 <div class="icon-list__item"> 
+                                    <img src="/images/icons/icon-heart-filled.svg" alt="Heart Icon" aria-hidden="true">
+                                    <div class="content">
+                                        <h3 class="h4">
+                                            Dietary Accommodations
+                                        </h3>
+                                        <p>
+                                            We offer specialized diets such as low-sodium, diabetic-friendly, and heart-healthy options to cater to specific health needs.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="icon-list__item">
-                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
-                                    <h3 class="h4 text-primary-dark">
-                                        Management of medication
-                                    </h3>
+                                 <div class="icon-list__item"> 
+                                    <img src="/images/icons/icon-heart-filled.svg" alt="Heart Icon" aria-hidden="true">
+                                    <div class="content">
+                                        <h3 class="h4">
+                                            Fresh, On-Site Preparation
+                                        </h3>
+                                        <p>
+                                            All meals are made fresh daily by our professional chefs, ensuring quality and flavor.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="icon-list__item">
-                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
-                                    <h3 class="h4 text-primary-dark">
-                                        Coordination with healthcare providers
-                                    </h3>
+                                <div class="icon-list__item"> 
+                                    <img src="/images/icons/icon-heart-filled.svg" alt="Heart Icon" aria-hidden="true">
+                                    <div class="content">
+                                        <h3 class="h4">
+                                            Licensed Dietitian Oversight
+                                        </h3>
+                                        <p>
+                                            Our menu is designed and regularly reviewed by a licensed dietitian to ensure all meals meet the nutritional standards for seniors.
+
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="icon-list__item">
-                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
-                                    <h3 class="h4 text-primary-dark">
-                                        Immediate response to health concerns
-                                    </h3>
-                                </div>
-                                 
                             </div>
                         </div>
                         <!-- Section #1 Ends -->
@@ -172,16 +130,16 @@
                         <div class="section">
                             <div class="ec-gallery">
                                 <div>
-                                    <img src="/images/health_monitoring/health_monitoring_1.jpg" >
+                                    <img src="/images/meals/meal-1.jpg" >
                                 </div>
                                 <div>
-                                    <img src="/images/health_monitoring/health_monitoring_2.jpg" >
+                                    <img src="/images/meals/meal-2.jpg" >
                                 </div>
                                 <div>
-                                    <img src="/images/health_monitoring/health_monitoring_3.jpg" >
+                                    <img src="/images/meals/meal-3.jpg" >
                                 </div>
                                 <div>
-                                    <img src="/images/health_monitoring/health_monitoring_4.jpg" >
+                                    <img src="/images/meals/meal-4.jpg" >
                                 </div>
                             </div>
                         </div>
@@ -282,5 +240,6 @@
     <script src="/js/index.js" defer></script>
     <script src="/js/header.js" type="module"></script>
     <script src="/js/footer.js" type="module"></script>
+    <script src="/js/sidebar.js" type="module"></script>
 </body>
 </html>

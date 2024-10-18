@@ -12,10 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Care</title>
     <!-- Favicons-->
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" type="image/png" href="/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Emmanuel Care" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -43,80 +45,7 @@
                 <div class="ec-container">
            
                     <!-- LEFT: Sidebar -->
-                    <div class="sidebar">
-                        <a href="/services" class="sidebar-item active">
-                            <div class="title">
-                                All Services
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/personal-care.html" class="sidebar-item ">
-                            <div class="title">
-                                Personal Care & Assistance
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/health-monitoring.html" class="sidebar-item ">
-                            <div class="title">
-                                Health Monitoring
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/physical-therapy.html" class="sidebar-item ">
-                            <div class="title">
-                                Physical Therapy
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/engaging-activities.html" class="sidebar-item">
-                            <div class="title">
-                                Engaging Activities
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/transportation-services.html" class="sidebar-item">
-                            <div class="title">
-                                Transportation Services
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/nutritious-meals.html" class="sidebar-item ">
-                            <div class="title">
-                                Nutritious Meals
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/tour-travel.html" class="sidebar-item">
-                            <div class="title">
-                                Tour & Travel
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/special-care.html" class="sidebar-item">
-                            <div class="title">
-                                Special Care
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                    </div>
+                     <my-service-sidebar></my-service-sidebar>
                     <!-- LEFT: Sidebar Ends-->
 
      
@@ -127,70 +56,50 @@
                         <!-- Section #1 -->
                         <div class="section">
                             <div class="services-cards">
-                                <a href="/services/personal-care.html" class="services-cards__item item-1">
+                                <a href="/services/nursing-care.html" class="services-cards__item nursing">
                                     <div class="bg_overlay"></div>
                                     <div class="content">
-
-                                        <div class="title h3 text-white">Personal Care & Assistance</div>
-                                        <div class="description text-white">Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.</div>
+                                        <div class="title h3 text-white">Nursing Care Services</div>
+                                        <div class="description text-white">Our licensed nurses deliver comprehensive health-related care to seniors with chronic conditions, ensuring a safe and nurturing environment.</div>
                                     </div>
                                 </a>
-                                <a href="/services/personal-care.html" class="services-cards__item item-2">
+                                <a href="/services/dining.html" class="services-cards__item dining">
                                     <div class="bg_overlay"></div>
                                     <div class="content">
-
-                                        <div class="title h3 text-white">Health Monitoring</div>
-                                        <div class="description text-white">Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.</div>
+                                        <div class="title h3 text-white">Dining Services</div>
+                                        <div class="description text-white">Emmanuel Care offers a fully equipped professional kitchen staffed by a team of skilled chefs, dedicated to providing nutritious and delicious meals.</div>
                                     </div>
                                 </a>
-                                <a href="/services/personal-care.html" class="services-cards__item item-3">
+                                <a href="/services/social-work.html" class="services-cards__item social">
                                     <div class="bg_overlay"></div>
                                     <div class="content">
-
-                                        <div class="title h3 text-white">Physical Therapy</div>
-                                        <div class="description text-white">Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.</div>
+                                        <div class="title h3 text-white">Social Work Services</div>
+                                        <div class="description text-white">Our experienced social workers offer a variety of services, including functional support, counseling, and financial assistance, tailored to each individual’s needs.</div>
                                     </div>
                                 </a>
-                                <a href="/services/personal-care.html" class="services-cards__item item-4">
+                                <a href="/services/activity-programs.html" class="services-cards__item activity">
                                     <div class="bg_overlay"></div>
                                     <div class="content">
 
-                                        <div class="title h3 text-white">Engaging Activities</div>
-                                        <div class="description text-white">Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.</div>
+                                        <div class="title h3 text-white">Activity Programs</div>
+                                        <div class="description text-white">We craft personalized activities that are designed around each individual’s unique interests and abilities to enhance their well-being and enjoyment.</div>
                                     </div>
                                 </a>
-                                <a href="/services/personal-care.html" class="services-cards__item item-5">
+                                <a href="/services/transportation.html" class="services-cards__item transportation">
                                     <div class="bg_overlay"></div>
                                     <div class="content">
-
                                         <div class="title h3 text-white">Transportation Services</div>
-                                        <div class="description text-white">Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.</div>
+                                        <div class="description text-white">We offer safe and convenient transportation for your loved ones to and from the center, as well as for off-site medical visits, shopping trips, and personal errands.</div>
                                     </div>
                                 </a>
-                                <a href="/services/personal-care.html" class="services-cards__item item-6">
+                                <a href="/services/physical-therapy.html" class="services-cards__item therapy">
                                     <div class="bg_overlay"></div>
                                     <div class="content">
-
-                                        <div class="title h3 text-white">Nutritious Meals</div>
-                                        <div class="description text-white">Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.</div>
+                                        <div class="title h3 text-white">Physical Therapy</div>
+                                        <div class="description text-white">Our physical therapy services focus on alleviating pain and improving mobility, helping seniors live more comfortably and independently.</div>
                                     </div>
                                 </a>
-                                <a href="/services/personal-care.html" class="services-cards__item item-7">
-                                    <div class="bg_overlay"></div>
-                                    <div class="content">
-
-                                        <div class="title h3 text-white">Tour & Travel</div>
-                                        <div class="description text-white">Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.</div>
-                                    </div>
-                                </a>
-                                <a href="/services/personal-care.html" class="services-cards__item item-8">
-                                    <div class="bg_overlay"></div>
-                                    <div class="content">
-
-                                        <div class="title h3 text-white">Special Care</div>
-                                        <div class="description text-white">Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.</div>
-                                    </div>
-                                </a>
+ 
                             </div>
                         </div>
 
@@ -289,5 +198,6 @@
     <script src="/js/index.js" defer></script>
     <script src="/js/header.js" type="module"></script>
     <script src="/js/footer.js" type="module"></script>
+    <script src="/js/sidebar.js" type="module"></script>
 </body>
 </html>

@@ -26,7 +26,6 @@ class MyHeader extends HTMLElement {
                             <li class="nav-item"><a href="/about">Why Us</a></li>
                             <li class="nav-item"><a href="/services">Services</a></li>
                             <li class="nav-item"><a href="/blog">Life at Emmanuel</a></li>
-                            <li class="nav-item"><a href="/how-to-join">How to Join</a></li>
                             <li class="nav-item button secondary-dark"><a href="/contact">Contact Us</a></li>
                         </ul>
                     </nav>
@@ -41,7 +40,6 @@ class MyHeader extends HTMLElement {
                                     <li class="nav-item"><a href="/about">Why Us</a></li>
                                     <li class="nav-item"><a href="/services">Services</a></li>
                                     <li class="nav-item"><a href="/blog">Life at Emmanuel</a></li>
-                                    <li class="nav-item"><a href="/how-to-join">How to Join</a></li>
                                     <li class="nav-item button secondary-dark"><a href="/contact">Contact Us</a></li>
                                 </ul>
                                 <div class="social-links">

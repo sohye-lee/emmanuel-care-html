@@ -11,6 +11,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Care</title>
+    <!-- Favicons-->
+    <link rel="icon" type="image/png" href="/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Emmanuel Care" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <my-header></my-header>
@@ -22,10 +31,10 @@
                 <div class="bg_overlay"></div>
                 <div class="ec-container">
                     <h1 class="text-white">
-                        Personal Care & Assistance
+                        Nursing Services
                     </h1>
                     <p class="breadcrumb text-white">
-                        <a href="/">Home</a> > <a href="/services">Services</a> > Personal Care & Assistance
+                        <a href="/">Home</a> > <a href="/services">Services</a> > Nursing Services
                     </p>
                 </div>
             </div>
@@ -34,82 +43,11 @@
             <!-- SERVICES GRID -->
             <div class="services-grid">
                 <div class="ec-container">
+
                     <!-- LEFT: Sidebar -->
-                    <div class="sidebar">
-                        <a href="/services" class="sidebar-item ">
-                            <div class="title">
-                                All Services
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/personal-care.html" class="sidebar-item active">
-                            <div class="title">
-                                Personal Care & Assistance
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/health-monitoring.html" class="sidebar-item ">
-                            <div class="title">
-                                Health Monitoring
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/physical-therapy.html" class="sidebar-item ">
-                            <div class="title">
-                                Physical Therapy
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/engaging-activities.html" class="sidebar-item">
-                            <div class="title">
-                                Engaging Activities
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/transportation-services.html" class="sidebar-item">
-                            <div class="title">
-                                Transportation Services
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/nutritious-meals.html" class="sidebar-item ">
-                            <div class="title">
-                                Nutritious Meals
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/tour-travel.html" class="sidebar-item">
-                            <div class="title">
-                                Tour & Travel
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/special-care.html" class="sidebar-item">
-                            <div class="title">
-                                Special Care
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                    </div>
+                     <my-service-sidebar></my-service-sidebar>
                     <!-- LEFT: Sidebar Ends-->
+
 
                     <!-- RIGHT: Content -->
                      <div class="right-content">
@@ -119,11 +57,11 @@
                             <div class="ec-title">
                                 <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
                                 <h2>
-                                    Caring Support for Everyday Needs
+                                    Comprehensive Nursing Services
                                 </h2>
                             </div>
                             <p class="ec-description featured">
-                                At Emmanuel Care, we understand the importance of maintaining dignity and independence while receiving the support needed for daily tasks. Our compassionate caregivers provide personalized assistance with activities of daily living (ADLs), ensuring that your loved ones are comfortable, safe, and well cared for in a supportive environment.
+                                At Emmanuel Care, our registered nurses are committed to providing exceptional health-related services for seniors with chronic care conditions. Our experienced team is trained to manage various health challenges in a safe and supportive environment, ensuring that each individual’s needs are met with respect and compassion. We specialize in caring for participants with conditions such as advanced arthritis, asthma, Alzheimer’s disease, COPD, diabetes, multiple sclerosis, multi-infarct dementia, Parkinson’s disease, and stroke, among others.
                             </p>
                         </div>
 
@@ -132,11 +70,11 @@
                             <div class="ec-title">
                                 <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
                                 <h2>
-                                    Comprehensive Daily Care
+                                    Personalized and Specialized Care
                                 </h2>
                             </div>
                             <p class="ec-description ">
-                                Our team is trained to assist with a wide range of personal care needs, ensuring that each individual receives the right level of care. We provide support with essential tasks such as:
+                                Our staff is highly skilled in managing essential daily care needs such as toileting, eating, and bathing, including safe transfers. Each center is equipped with walk-in showers to ensure convenience and safety during personal care. We also provide private care for participants with specialized needs like tube feeding, ensuring the utmost dignity and privacy in our nurse’s clinic.
                             </p>
 
                             <div class="icon-list heart">
@@ -144,10 +82,10 @@
                                     <img src="/images/icons/icon-heart-filled.svg" alt="Heart Icon" aria-hidden="true">
                                     <div class="content">
                                         <h3 class="h4">
-                                            Grooming & Hygiene
+                                            Bathing & Grooming
                                         </h3>
                                         <p>
-                                            Assistance with bathing, dressing, and grooming to help your loved one look and feel their best.
+                                            Safe and respectful assistance with personal hygiene, including transfers.
                                         </p>
                                     </div>
                                 </div>
@@ -155,10 +93,10 @@
                                     <img src="/images/icons/icon-heart-filled.svg" alt="Heart Icon" aria-hidden="true">
                                     <div class="content">
                                         <h3 class="h4">
-                                            Mobility & Transfers
+                                            Specialized Needs
                                         </h3>
                                         <p>
-                                            Safe and gentle assistance with moving around, whether it's getting in and out of bed or using mobility aids.
+                                            Support for tube feeding and other unique care requirements in a private setting.
                                         </p>
                                     </div>
                                 </div>
@@ -166,21 +104,10 @@
                                     <img src="/images/icons/icon-heart-filled.svg" alt="Heart Icon" aria-hidden="true">
                                     <div class="content">
                                         <h3 class="h4">
-                                            Toileting & Incontinence Care
+                                            Chronic Condition Management
                                         </h3>
                                         <p>
-                                            Respectful, discreet support for toileting and incontinence needs.
-                                        </p>
-                                    </div>
-                                </div>
-                                 <div class="icon-list__item"> 
-                                    <img src="/images/icons/icon-heart-filled.svg" alt="Heart Icon" aria-hidden="true">
-                                    <div class="content">
-                                        <h3 class="h4">
-                                            Meal Assistance
-                                        </h3>
-                                        <p>
-                                            Help with eating and drinking, including dietary support for specialized nutritional needs.
+                                            Customized care plans for participants managing multiple chronic conditions.
                                         </p>
                                     </div>
                                 </div>
@@ -192,51 +119,120 @@
                             <div class="ec-title">
                                 <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
                                 <h2>
-                                    Specialized, Compassionate Care
+                                    Expert Skilled Nursing Services
                                 </h2>
                             </div>
                             <p class="ec-description ">
-                                We know that each person’s situation is unique, which is why we tailor our personal care services to suit your loved one’s specific needs. Our caregivers are trained to support individuals with chronic conditions such as arthritis, Alzheimer’s, stroke recovery, and more. Whether it’s providing gentle reminders for medication or assisting with more complex care needs, our team is here to ensure your loved one receives respectful, compassionate care.
+                                Our skilled nursing services are designed to address a wide range of medical needs. Whether it’s post-operative care, medication management, or wound care, our registered nurses are equipped to provide advanced medical support tailored to each participant's unique situation. We also offer specialized services for seniors with Alzheimer’s and dementia, ensuring they receive the best care possible.
                             </p>
                             <div class="icon-list">
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                        Assistance with Bathing and Grooming
+                                        Skilled RN Assessments
                                     </h3>
                                 </div>
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                       Mobility Assistance and Transfers
+                                       Medication Management
                                     </h3>
                                 </div>
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                        Toileting and Incontinence Care
+                                        Wound Care & Infusions
                                     </h3>
                                 </div>
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                        Meal and Feeding Support
+                                        Pre-Operative & Post-Operative Care
                                     </h3>
                                 </div>
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                        Medication Reminders
+                                        Diabetes Monitoring
                                     </h3>
                                 </div>
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                        Personalized Care Plans
+                                        Surgery Recovery
                                     </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Alzheimer’s and Dementia Specialists
+                                    </h3>
+                                </div>
+                                                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Safety Assessments
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                       Nutrition Support
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Fall Prevention
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Blood Pressure Monitoring
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Respite Care
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Hospice Support
+                                    </h3>
+                                </div>
+                                 
+                            </div>
+                        </div>
+
+                         <!-- Section #4 -->
+                        <div class="section">
+                            <div class="ec-gallery">
+                                <div>
+                                    <img src="/images/nursing/nursing-1.jpg" >
+                                </div>
+                                <div>
+                                    <img src="/images/nursing/nursing-2.jpg" >
+                                </div>
+                                <div>
+                                    <img src="/images/nursing/nursing-3.jpg" >
+                                </div>
+                                <div>
+                                    <img src="/images/nursing/nursing-4.jpg" >
+                                </div>
+                                <div>
+                                    <img src="/images/nursing/nursing-5.jpg" >
+                                </div>
+                                <div>
+                                    <img src="/images/nursing/nursing-6.jpg" >
                                 </div>
                             </div>
                         </div>
+                        <!-- Section #2 Ends -->
+
 
                      </div>
                     <!-- RIGHT: Content Ends -->
@@ -333,5 +329,6 @@
     <script src="/js/index.js" defer></script>
     <script src="/js/header.js" type="module"></script>
     <script src="/js/footer.js" type="module"></script>
+    <script src="/js/sidebar.js" type="module"></script>
 </body>
 </html>

@@ -74,36 +74,28 @@
 
                         }
 
-                       &.item-1 {
-                            background-image: url('/images/services_care.jpg');
+                       &.nursing {
+                            background-image: url('/images/nursing/nursing-1.jpg');
                        }
 
-                        &.item-2 {
+                        &.social {
                             background-image: url('/images/services_monitoring.jpg');
                        }
 
-                        &.item-3 {
-                            background-image: url('/images/services_therapy.jpg');
+                        &.therapy {
+                            background-image: url('/images/service-therapy.jpg');
                        }
 
-                        &.item-4 {
-                            background-image: url('/images/services_activities.jpg');
+                        &.activity {
+                            background-image: url('/images/service-activity-2.jpg');
                        }
 
-                        &.item-5 {
-                            background-image: url('/images/services_transportation.jpg');
+                        &.transportation {
+                            background-image: url('/images/service-transportation.jpg');
                        }
 
-                        &.item-6 {
-                            background-image: url('/images/services_meal.jpg');
-                       }
-
-                        &.item-7 {
-                            background-image: url('/images/services_care.jpg');
-                       }
-
-                        &.item-8 {
-                            background-image: url('/images/services_care.jpg');
+                        &.dining {
+                            background-image: url('/images/service-meal.jpg');
                        }
                        
                     }

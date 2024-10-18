@@ -12,10 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Physical Therapy | Emmanuel Care</title>
     <!-- Favicons-->
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" type="image/png" href="/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Emmanuel Care" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -41,82 +43,11 @@
             <!-- SERVICES GRID -->
             <div class="services-grid">
                 <div class="ec-container">
+
                     <!-- LEFT: Sidebar -->
-                    <div class="sidebar">
-                        <a href="/services" class="sidebar-item ">
-                            <div class="title">
-                                All Services
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/personal-care.html" class="sidebar-item ">
-                            <div class="title">
-                                Personal Care & Assistance
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/health-monitoring.html" class="sidebar-item ">
-                            <div class="title">
-                                Health Monitoring
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/physical-therapy.html" class="sidebar-item active">
-                            <div class="title">
-                                Physical Therapy
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/engaging-activities.html" class="sidebar-item">
-                            <div class="title">
-                                Engaging Activities
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/transportation-services.html" class="sidebar-item">
-                            <div class="title">
-                                Transportation Services
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/nutritious-meals.html" class="sidebar-item ">
-                            <div class="title">
-                                Nutritious Meals
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/tour-travel.html" class="sidebar-item">
-                            <div class="title">
-                                Tour & Travel
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                        <a href="/services/special-care.html" class="sidebar-item">
-                            <div class="title">
-                                Special Care
-                            </div> 
-                            <div class="icon">
-                                <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
-                            </div>
-                        </a>
-                    </div>
+                     <my-service-sidebar></my-service-sidebar>
                     <!-- LEFT: Sidebar Ends-->
+
 
                     <!-- RIGHT: Content -->
                      <div class="right-content">
@@ -126,60 +57,110 @@
                             <div class="ec-title">
                                 <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
                                 <h2>
-                                    Restoring Strength and Mobility
+                                    Comprehensive Physical Therapy Services
                                 </h2>
                             </div>
-                            <p class="ec-description ">
-                                Physical therapy at Emmanuel Care is tailored to help seniors regain and enhance their physical abilities. Our licensed therapists work with residents to develop customized therapy plans that focus on improving mobility, strength, and balance. Services include:
+                            <p class="ec-description featured">
+                                At Emmanuel Care, our physical therapy (PT) services are designed to help seniors improve their physical function, reduce pain, and enhance their overall quality of life. Our therapy sessions focus on preserving, restoring, and improving movement abilities that may be affected by disease, injury, or disability. With a range of therapeutic exercises, physical modalities, and personalized training, our goal is to help participants live more independently and comfortably.
                             </p>
+                        </div>
+
+                        <!-- Section #2 -->
+                        <div class="section">
+                            <div class="ec-title">
+                                <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
+                                <h2>
+                                    Physical Therapy Treatment Types Include
+                                </h2>
+                            </div>
+
                             <div class="icon-list">
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                        Individual assessment and therapy planning
+                                       Posture Correction
                                     </h3>
                                 </div>
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                       Techniques to alleviate pain and enhance function
+                                        Fall Prevention Training
                                     </h3>
                                 </div>
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                        Rehabilitation exercises
+                                        Thermal Therapy
                                     </h3>
                                 </div>
                                 <div class="icon-list__item">
                                     <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
                                     <h3 class="h4 text-primary-dark">
-                                        Guidance and support for family members
+                                       Electrical Stimulation Therapy
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Ultrasound
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Paraffin Wax
+                                    </h3>
+                                </div>
+                                                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Infrared Therapy
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                       Manual Therapy
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Muscle Strengthening
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Endurance Training
+                                    </h3>
+                                </div>
+                                <div class="icon-list__item">
+                                    <img src="/images/icons/icon-check-primary.svg" alt="Check icon" aria-hidden="true">
+                                    <h3 class="h4 text-primary-dark">
+                                        Cardiovascular Strengthening
                                     </h3>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Section #1 Ends -->
 
-                        <!-- Section #2 -->
+                            <p class="ec-description ">
+                                Physical therapy at Emmanuel Care is covered by Medicare and Medicaid, with Medicare recipients eligible for 25-30 treatments annually based on individual medical needs.
+                            </p>
+                        </div>
+                        <!-- Section #2 Ends -->
+
+                        <!-- Section #3 -->
                         <div class="section">
                             <div class="ec-gallery">
                                 <div>
-                                    <img src="/images/physical_therapy/physical_therapy_1.jpg" >
+                                    <img src="/images/physical_therapy/therapy-1.jpg" >
                                 </div>
                                 <div>
-                                    <img src="/images/physical_therapy/physical_therapy_2.jpg" >
+                                    <img src="/images/physical_therapy/therapy-2.jpg" >
                                 </div>
-                                <div>
-                                    <img src="/images/physical_therapy/physical_therapy_3.jpg" >
-                                </div>
-                                <!-- <div>
-                                    <img src="/images/physical_therapy/physical_therapy_4.jpg" >
-                                </div> -->
-                              
                             </div>
                         </div>
-                        <!-- Section #2 Ends -->
+                        <!-- Section #3 Ends -->
 
                      </div>
                     <!-- RIGHT: Content Ends -->
@@ -276,5 +257,6 @@
     <script src="/js/index.js" defer></script>
     <script src="/js/header.js" type="module"></script>
     <script src="/js/footer.js" type="module"></script>
+    <script src="/js/sidebar.js" type="module"></script>
 </body>
 </html>

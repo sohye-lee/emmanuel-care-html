@@ -8,6 +8,12 @@
     letter-spacing: 1.2px;
     font-weight: 500;
     transition: all 300ms ease;
+    font-size: 18px;
+
+    &.sm {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
 
 
     &.primary-dark {
@@ -57,10 +63,21 @@
             background-color: $color-primary-dark !important;
             color: $color-primary-light !important;
         }
+
+        &.bordered {
+            border: 1px solid $color-black;
+        }
     }
 
 }
 
 .button-wrapper {
     padding-top: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    &.center {
+        justify-content: center;
+    }
 }

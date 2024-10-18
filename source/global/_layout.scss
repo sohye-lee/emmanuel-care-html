@@ -53,3 +53,34 @@
         padding-left: 12px;
     }
 }
+
+.image-text {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+
+    .image {
+        overflow: hidden;
+        aspect-ratio: 1 / 1;
+
+        img {
+            object-fit: cover;
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    // &.left {
+    //     grid-template-columns: 1fr 2fr;
+    // }
+
+    // &.right {
+    //     grid-template-columns: 2fr 1fr;
+    // }
+}

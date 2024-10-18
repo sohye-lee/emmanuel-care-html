@@ -12,14 +12,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Care</title>
     <!-- Favicons-->
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" type="image/png" href="/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Emmanuel Care" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 </head>
-<body>
+<body class="home">
     <!-- HEADER -->
      <my-header></my-header>
     <!-- HEADER END -->
@@ -39,21 +41,88 @@
                         <h1>Compassionate Senior Day Care for a Brighter Tomorrow</h1>
                         <p>At Emmanuel Care, we provide the highest quality of care and comfort for your loved ones, ensuring they thrive in a loving, safe, and engaging environment.</p>
                         <div class="button-wrapper">
-                            <a href="" class="button secondary-light">Learn More</a>
+                            <a href="/services" class="button secondary-light">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- HERO ENDS-->
 
+            <!-- WHY US -->
+                  <div class="whyus-summary">
+                    <div class="ec-container">
+
+                        <div class="ec-title center">
+                            <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
+                            <h2>
+                                Why Us?
+                            </h2>
+                        </div>
+
+                        
+
+                        <!-- Grid -->
+                        <div class="summary mt-3">
+                            <div class="summary-item">
+                                <div class="image">
+                                    <img src="/images/facility-2.jpg" alt="Individualized Attention">
+                                </div>
+                                <div class="content">
+                                    <div class="h3 title text-primary-dark">
+                                        Spacious & Modern<br>Facility 
+                                    </div>
+                                    <p>
+                                        With <strong>20,000 square feet</strong> of beautifully equipped space, Emmanuel Care offers the <strong>largest facility in the area</strong>, providing a comfortable and welcoming environment for all our members.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="summary-item">
+                                <div class="image">
+                                    <img src="/images/service-transportation.jpg" alt="Engaging Activities">
+                                </div>
+                                <div class="content">
+                                    <div class="h4 title text-primary-dark">
+                                        Reliable & Convenient<br>Transportation
+                                    </div>
+                                    <p>
+                                        We provide safe, comfortable transportation services, ensuring your loved ones are transported <strong>to and from the center, medical appointments, and more</strong>, with ease and reliability.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="summary-item">
+                                <div class="image">
+                                    <img src="/images/service-activity-2.jpg" alt="Safety and Security">
+                                </div>
+                                <div class="content">
+                                    <div class="h4 title text-primary-dark">
+                                        Engaging & Supportive<br>Environment 
+                                    </div>
+                                    <p>
+                                        At Emmanuel Care, we pride ourselves on creating a safe and nurturing environment. Our enriching programs are designed to engage and support seniors in a <strong>loving, community-focused setting</strong>.
+                                    </p>
+                                </div>
+                            </div>
+                           
+        
+                        </div>
+                        <!-- Grid ENDS -->
+
+                        <div class="button-wrapper center">
+                            <a href="/about" class="button  primary-dark">Find Out More</a>
+                        </div>
+                </div>
+            </div>
+            <!-- WHY US ENDS -->
+
             <!-- ABOUT -->
             <div class="home-about">
                 <div class="ec-container">
                     <div class="left-video">
-                        <video width="320" height="240" controls>
+                        <img src="/images/about-1.jpg" src="Emmanuel Care awards and recognition">
+                        <!-- <video width="320" height="240" controls>
                             <source src="/images/video-1.mp4" type="video/mp4">
                             Your browser does not support the video tag.
-                        </video>
+                        </video> -->
                     </div>
                     <div class="right-content">
                         <div class="ec-title">
@@ -66,7 +135,7 @@
                             Emmanuel Care is more than a day care center; we are a community dedicated to the well-being of seniors. Our mission is to provide a nurturing environment where seniors feel valued, engaged, and cared for. With a team of highly trained staff and a warm, inviting atmosphere, we create a home away from home for seniors.
                         </div>
                         <div class="button-wrapper">
-                            <a href="#" class="button primary-dark">Read more about our story</a>
+                            <a href="/about" class="button primary-dark">Read message from our founder</a>
                         </div>
                     </div>
                 </div>
@@ -85,29 +154,102 @@
                     </div>
                     <div class="ec-description center">We offer a range of specialized services designed to enhance the physical, emotional, and social well-being of our clients.</div>
                     <div class="services-grid">
-                        <a href="/services/personal-care.html" class="services-item">
-                            <img src="/images/services_care.jpg" alt="Personal Care">
-                            <p class="h4">Personal Care & Assistance</p>
+                        <a href="/services/nursing-care.html" class="services-item">
+                            <div class="image">
+                                <img src="/images/services_care.jpg" alt="Nursing Care">
+                            </div>
+                            <div class="content">
+                                <div class="texts">
+                                    <p class="h4">Nursing Services</p>
+                                    <p class="description">
+                                        Our licensed nurses deliver comprehensive health-related care to seniors with chronic conditions, ensuring a safe and nurturing environment.
+                                    </p>
+                                </div>
+                                <div class="button-wrapper center">
+                                    <span class="button sm white bordered">Learn More</span>
+                                </div>
+                            </div>
                         </a>
-                          <a href="/services/health-monitoring.html" class="services-item"> 
-                            <img src="/images/services_monitoring.jpg" alt="Health Monitoring">
-                            <p class="h4">Health Monitoring</p>
+                          <a href="/services/dining.html" class="services-item"> 
+                            <div class="image">
+                                <img src="/images/service-meal.jpg" alt="Nutritious Meals">
+                            </div>
+                            <div class="content">
+                                 <div class="texts">
+                                    <p class="h4">Dining Services</p>
+                                    <p class="description">
+                                         Emmanuel Care offers a fully equipped professional kitchen staffed by a team of skilled chefs, dedicated to providing nutritious and delicious meals.
+                                    </p>
+                                </div>
+                                <div class="button-wrapper center">
+                                    <span class="button sm white bordered">Learn More</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/services/social-work.html" class="services-item">
+                            <div class="image">
+                                <img src="/images/services_monitoring.jpg" alt="Social Work Services">
+                            </div>
+                            <div class="content">
+                                 <div class="texts">
+
+                                     <p class="h4">Social Work Services</p>
+                                     <p class="description">
+                                         Our experienced social workers offer a variety of services, including functional support, counseling, and financial assistance, tailored to each individual’s needs.
+                                    </p>
+                                </div>
+                                <div class="button-wrapper center">
+                                    <span class="button sm white bordered">Learn More</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/services/activity-programs.html" class="services-item"> 
+                            <div class="image">
+                                <img src="/images/service-activity-1.jpg" alt="Engaging Activities">
+                            </div>
+                            <div class="content">
+                                <div class="texts">
+                                    <p class="h4">Activity Programs</p>
+                                    <p class="description">
+                                        We craft personalized activities that are designed around each individual’s unique interests and abilities to enhance their well-being and enjoyment.
+                                    </p>
+                                </div>
+                                <div class="button-wrapper center">
+                                    <span class="button sm white bordered">Learn More</span>
+                                </div>
+                            </div>
+                        </a>
+                          <a href="/services/transportation.html" class="services-item"> 
+                            <div class="image">
+                                <img src="/images/service-transportation.jpg" alt="Transportation Services">
+                            </div>
+                            <div class="content">
+                                <div class="texts">
+                                    <p class="h4">Transportation Services</p>
+                                    <p class="description">
+                                        We offer safe and convenient transportation for your loved ones to and from the center, as well as for off-site medical visits, shopping trips, and personal errands.
+                                    </p>
+                                </div>
+                                <div class="button-wrapper center">
+                                    <span class="button sm white bordered">Learn More</span>
+                                </div>
+                            </div>
                         </a>
                         <a href="/services/physical-therapy.html" class="services-item">
-                            <img src="/images/services_therapy.jpg" alt="Physical Therapy">
-                            <p class="h4">Physical Therapy</p>
-                        </a>
-                               <a href="/services/engaging-activities.html" class="services-item"> 
-                            <img src="/images/services_activities.jpg" alt="Engaging Activities">
-                            <p class="h4">Engaging Activities</p>
-                        </a>
-                          <a href="/services/transportation-services.html" class="services-item"> 
-                            <img src="/images/services_transportation.jpg" alt="Transportation Services">
-                            <p class="h4">Transportation Services</p>
-                        </a>
-                        <a href="/services/nutritious-meals.html" class="services-item">
-                            <img src="/images/services_meal.jpg" alt="Nutritious Meals">
-                            <p class="h4">Nutritious Meals</p>
+                            <div class="image">
+                                <img src="/images/service-therapy.jpg" alt=" Physical Therapy">
+                            </div>
+                            <div class="content">
+                                <div class="texts">
+                                    <p class="h4">Physical Therapy</p>
+                                    <p class="description">
+                                        Our physical therapy services focus on alleviating pain and improving mobility, helping seniors live more comfortably and independently.
+                                    </p>
+                                </div>
+                                <div class="button-wrapper center">
+                                    <span class="button sm white bordered">Learn More</span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
