@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;;
-    background-color: #310202;
+    background-color: $color-primary;
  
     .bg_overlay, .slider {
         position: absolute;
@@ -26,13 +26,13 @@
             animation: slider1 9s infinite;
         }
          &.slider-2 {
-            background-image: url('/images/home_hero/hero-2.jpg');
+            background-image: url('/images/home_hero/hero-3.jpg');
             animation: slider2 9s infinite;
+            background-position: center;
         }
          &.slider-3 {
-            background-image: url('/images/home_hero/hero-3.jpg');
+            background-image: url('/images/group-costume-1.jpg');
             animation: slider3 9s infinite;
-            background-position: center;
         }
     }
 
