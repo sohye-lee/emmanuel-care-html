@@ -17,7 +17,7 @@ body.welcome {
             width: 100%;
             background-repeat: no-repeat;
             background-size: cover;
-            background-image: url('/images/home_hero/hero-1.jpg');
+            background-image: url('/images/group-costume-1.jpg');
                 flex-grow: 1;
                 min-height: 400px;
                 background-color: $color-black;
@@ -52,6 +52,10 @@ body.welcome {
                     align-items: stretch;
                     justify-content: center;
                     gap: 10px;
+
+                    .button {
+                        font-size: 20px;
+                    }
                 }
             }
 
@@ -60,6 +64,7 @@ body.welcome {
                     background-color: #A11B33;
                     border: 1px solid #A11B33;
                     color: $color-white;
+                        font-size: 20px;
 
                     &:hover {
                         background-color: #62061f;
