@@ -2,8 +2,9 @@ form {
     display: flex;
     flex-direction: column;
     gap: 8px;
-
-    input, textarea {
+    input,
+    textarea {
+        font-family: $font-family-primary !important;
         width: 100%;
         outline: none;
         border: 1px solid $color-white;
@@ -12,16 +13,14 @@ form {
         font-size: 16px;
         background-color: transparent;
         &::placeholder {
-            color: rgba(255,255,255, 0.8);
+            color: rgba(255, 255, 255, 0.8);
             font-family: 'DM Sans', sans-serif;
         }
     }
- 
     .button {
         padding: 8px 16px;
         color: $color-primary-dark;
         font-size: 14px;
-
         &:hover {
             color: $color-white;
         }

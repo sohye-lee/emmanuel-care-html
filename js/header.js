@@ -1,7 +1,7 @@
 // HEADER
 class MyHeader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <header>
             <div class="header-top" id="header-top">
                 <div class="ec-container d-flex justify-content-between">
@@ -25,8 +25,9 @@ class MyHeader extends HTMLElement {
                         <ul>
                             <li class="nav-item"><a href="/about">Why Us</a></li>
                             <li class="nav-item"><a href="/services">Services</a></li>
-                            <li class="nav-item"><a href="/blog">Life at Emmanuel</a></li>
+                            <li class="nav-item"><a href="/blog">Blog</a></li>
                             <li class="nav-item button secondary-dark"><a href="/contact">Contact Us</a></li>
+                            <li class="nav-item button secondary-dark"><a href="tel:+14438287777">+1 (443) 828-7777</a></li>
                         </ul>
                     </nav>
                     <div id="mobile-nav" class="mobile-nav">
@@ -54,8 +55,8 @@ class MyHeader extends HTMLElement {
                 </div>
             </div>
         </header>
-        `
-    }
+        `;
+  }
 }
 
-customElements.define('my-header', MyHeader);
+customElements.define("my-header", MyHeader);

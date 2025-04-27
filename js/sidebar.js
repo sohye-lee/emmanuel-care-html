@@ -1,11 +1,19 @@
 // HEADER
 class MyServiceSidebar extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
             <div class="sidebar">
                 <a href="/services" class="sidebar-item">
                     <div class="title">
                         All Services
+                    </div> 
+                    <div class="icon">
+                        <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
+                    </div>
+                </a>
+                <a href="/services/medical-care.html" class="sidebar-item ">
+                    <div class="title">
+                        Medical Day Care Services
                     </div> 
                     <div class="icon">
                         <img src="/images/icons/icon-chevron-right.svg" alt="Chevron right icon" aria-hidden="true">
@@ -60,8 +68,8 @@ class MyServiceSidebar extends HTMLElement {
                     </div>
                 </a>
             </div>
-        `
-    }
+        `;
+  }
 }
 
-customElements.define('my-service-sidebar', MyServiceSidebar);
+customElements.define("my-service-sidebar", MyServiceSidebar);

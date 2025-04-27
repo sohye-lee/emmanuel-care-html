@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Compiled CSS File -->
-    <link href="/build/index.css" rel="stylesheet" >
+    <link href="/build/index.css" rel="stylesheet">
     <!-- Bootstrap 5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" crossorigin="anonymous">
     <!-- Swiper JS (Slider) -->
@@ -21,6 +22,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
     <my-header></my-header>
     <main>
@@ -43,19 +45,26 @@
             <!-- SERVICES GRID -->
             <div class="services-grid">
                 <div class="ec-container">
-           
+
                     <!-- LEFT: Sidebar -->
-                     <my-service-sidebar></my-service-sidebar>
+                    <my-service-sidebar></my-service-sidebar>
                     <!-- LEFT: Sidebar Ends-->
 
-     
+
 
                     <!-- RIGHT: Content -->
-                     <div class="right-content">
+                    <div class="right-content">
 
                         <!-- Section #1 -->
                         <div class="section">
                             <div class="services-cards">
+                                <a href="/services/medical-care.html" class="services-cards__item medical">
+                                    <div class="bg_overlay"></div>
+                                    <div class="content">
+                                        <div class="title h3 text-white">Medical Day Care Services</div>
+                                        <div class="description text-white">Our licensed nurses deliver comprehensive health-related care to seniors with chronic conditions, ensuring a safe and nurturing environment.</div>
+                                    </div>
+                                </a>
                                 <a href="/services/nursing-care.html" class="services-cards__item nursing">
                                     <div class="bg_overlay"></div>
                                     <div class="content">
@@ -99,18 +108,18 @@
                                         <div class="description text-white">Our physical therapy services focus on alleviating pain and improving mobility, helping seniors live more comfortably and independently.</div>
                                     </div>
                                 </a>
- 
+
                             </div>
                         </div>
 
-                     </div>
+                    </div>
                     <!-- RIGHT: Content Ends -->
                 </div>
             </div>
             <!-- SERVICES GRID ENDS -->
 
             <!-- BLOG LIST -->
-             <div class="blog-list">
+            <!-- <div class="blog-list">
                 <div class="ec-container">
                     <div class="ec-title">
                         <img src="/images/icons/icon-heart.svg" alt="heart icon" aria-hidden="true" >
@@ -153,21 +162,23 @@
 
                     <a href="#" class="button primary-dark">Explore More Moments at emmanuel</a>
                 </div>
-             </div>
+             </div> -->
             <!-- BLOG LIST ENDS -->
 
             <!-- CTA: CONTACT -->
-             <div class="contact-cta">
+            <my-contact-cta></my-contact-cta>
+            <!-- <div class="contact-cta">
                 <div class="ec-container">
                     <div class="left-content">
-                        <div class="ec-title"> 
-                            <img src="/images/icons/icon-heart-white.svg" alt="heart icon" aria-hidden="true" >
+                        <div class="ec-title">
+                            <img src="/images/icons/icon-heart-white.svg" alt="heart icon" aria-hidden="true">
                             <h2 class="text-white">
                                 Let’s Connect - Your Loved One’s Care Starts Here
                             </h2>
                         </div>
                         <p class="description text-white">
-                            At Emmanuel Care, we’re more than just a senior day care—we’re a community dedicated to making a positive impact on the lives of your loved ones. Reach out today, and let’s discuss how we can support your family and provide the compassionate care your loved one deserves. We’re here for you every step of the way!
+                            At Emmanuel Care, we’re more than just a senior day care—we’re a community dedicated to making a positive impact on the lives of your loved ones. Reach out today, and let’s discuss how we can support your family and provide the compassionate care your
+                            loved one deserves. We’re here for you every step of the way!
                         </p>
                         <p class="h4 text-white">
                             Quick Connect: (443) 828-7777
@@ -185,7 +196,7 @@
                         </form>
                     </div>
                 </div>
-             </div>
+            </div> -->
             <!-- CTA: CONTACT ENDS -->
 
         </div>
@@ -199,5 +210,7 @@
     <script src="/js/header.js" type="module"></script>
     <script src="/js/footer.js" type="module"></script>
     <script src="/js/sidebar.js" type="module"></script>
+    <script src="/js/contact-cta.js" type="module"></script>
 </body>
+
 </html>

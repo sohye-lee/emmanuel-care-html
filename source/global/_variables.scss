@@ -1,12 +1,11 @@
-
 // COLORS
 $color-primary-light: #E1EBF5;
-$color-primary: #8FC1F3;
-$color-primary-dark: #2866A4;
-$color-primary-dark-2: #16426D;
-$color-secondary-light: #fbf4f8;
-$color-secondary: #E068B5;
-$color-secondary-dark: #AD3370;
+$color-primary: #8eaed3;
+$color-primary-dark: #20374f;
+$color-primary-dark-2: #364b63;
+$color-secondary-light: #f9ecf3;
+$color-secondary: #bc5e99;
+$color-secondary-dark: #792043;
 $color-text-color: #171717;
 $color-black: #000;
 $color-white: #fff;
@@ -14,8 +13,8 @@ $color-gray-light: #F3F5F7;
 $color-gray-medium: #D4D4D4;
 $color-gray-dark: #353535;
 $color-text: #241B18;
-$bg-gradient: linear-gradient(90deg, #310202 6.98%, rgba(49, 13, 13, 0.00) 85.94%), url(<path-to-image>) lightgray -17.867px -218.484px / 119.309% 178.128% no-repeat;
-
+$bg-gradient: linear-gradient(90deg, #310202 6.98%, rgba(49, 13, 13, 0.00) 85.94%),
+url(<path-to-image>) lightgray -17.867px -218.484px / 119.309% 178.128% no-repeat;
 // VIEWPOINTS
 $bp-mobile-max: 499px; // mobile under 499px
 $bp-tablet-sm-min: 500px;
@@ -27,7 +26,6 @@ $bp-desktop-sm-max: 1201px; // small monitor under 1280px
 $bp-desktop-lg-min: 1202px;
 $bp-desktop-lg-max: 1440px; // large monitor under 1440px
 $bp-desktop-xl-min: 1441px;
-
 // LAYOUT 
 $container-width: 1182px;
 $container-padding: 16px;
@@ -35,3 +33,8 @@ $gap-lg: 40px;
 $gap-md: 24px;
 $gap-sm: 20px;
 $gap-xs: 8px;
+// FONTS
+$font-family-primary: "DM Sans",
+sans-serif;
+$font-family-secondary: "Rufina",
+serif;

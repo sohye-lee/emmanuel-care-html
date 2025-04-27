@@ -4,44 +4,42 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    ;
     background-color: $color-primary;
- 
-    .bg_overlay, .slider {
+    .bg_overlay,
+    .slider {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-position: center bottom;
+        background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
     }
-
     .slider {
         z-index: 1;
-
         &.slider-1 {
-            background-image: url('/images/home_hero/hero-1.jpg');
+            background-image: url('/images/home_hero/hero-8.webp');
             animation: slider1 9s infinite;
         }
-         &.slider-2 {
-            background-image: url('/images/home_hero/hero-3.jpg');
+        &.slider-2 {
+            background-image: url('/images/home_hero/hero-9.webp');
             animation: slider2 9s infinite;
             background-position: center;
         }
-         &.slider-3 {
-            background-image: url('/images/group-costume-1.jpg');
+        &.slider-3 {
+            background-image: url('/images/home_hero/hero-2.webp');
             animation: slider3 9s infinite;
         }
     }
-
     .bg_overlay {
         z-index: 2;
-        background: linear-gradient(90.01deg, #2F5E8E 14.07%, rgba(49, 2, 2, 0.16) 86%);
-        opacity: 0.9;
+        // background: linear-gradient(90.01deg, #2F5E8E 14.07%, rgba(49, 2, 2, 0.16) 86%);
+        background: linear-gradient(90.01deg, #254360 14.07%, rgba(49, 2, 2, 0.16) 86%);
+        opacity: 0.6;
     }
-
     .ec-container {
         display: flex;
         flex-direction: column;
@@ -49,8 +47,6 @@
         height: 100%;
         position: relative;
         z-index: 5;
-        
-
         .hero-content {
             display: flex;
             flex-direction: column;
@@ -59,107 +55,84 @@
             max-width: 540px;
             width: 100%;
             align-items: flex-start;
-
-            h1, p {
+            h1,
+            p {
                 color: $color-white;
             }
-
- 
         }
-             
     }
-
 }
 
 @keyframes slider1 {
     0% {
         opacity: 1;
     }
-
     23% {
         opacity: 1;
     }
-
     33% {
         opacity: 0;
     }
-
     90% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
-
 }
 
 @keyframes slider2 {
     0% {
         opacity: 0;
     }
-
     23% {
         opacity: 0;
     }
-
     33% {
         opacity: 1;
     }
-
     56% {
         opacity: 1;
     }
-
     66% {
         opacity: 0;
     }
-
     100% {
         opacity: 0;
     }
-
 }
 
 @keyframes slider3 {
     0% {
         opacity: 0;
     }
-
     56% {
         opacity: 0;
     }
-
     66% {
         opacity: 1;
     }
-
     90% {
         opacity: 1;
     }
-
     100% {
         opacity: 0;
     }
-
 }
 
 // WHY US HOME
 .home {
     .whyus-summary {
-        .summary  {
+        .summary {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             overflow: hidden;
             gap: 16px;
             border: none;
-            
             .summary-item {
                 overflow: hidden;
                 padding: 0;
                 border: 1px solid $color-primary;
-
-            
                 .image {
                     max-width: 100%;
                     aspect-ratio: 4 / 3;
@@ -167,38 +140,31 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-
                     img {
                         object-fit: cover;
                         max-width: 120%;
                     }
                 }
-
                 .content {
                     padding: 0 20px 20px;
                     .title {
                         font-size: 26px;
                         color: $color-secondary-dark;
                     }
- 
-                    
                 }
             }
         }
     }
 }
 
- 
 // ABOUT
 .home-about {
     width: 100%;
     background-color: $color-secondary-light;
-
     .ec-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 32px;
-
         .left-video {
             overflow: hidden;
             img {
@@ -212,8 +178,7 @@
                 object-fit: fill;
             }
         }
-
-        .right-content{
+        .right-content {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -224,48 +189,43 @@
 
 // SERVICES
 .home-services {
-
     .ec-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 24px;
-        
         .services-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
             grid-auto-rows: 1fr;
             width: 100%;
             max-width: 100%;
             gap: 0;
             align-items: stretch;
-
             .services-item {
                 padding: 12px;
                 display: flex;
-                flex-direction: column;
+                // flex-direction: column;
                 align-items: stretch;
                 overflow: hidden;
-
                 .image {
-                    aspect-ratio: 374/270;
-                    width: 100%;
+                    // aspect-ratio: 374/270;
+                    width: 50%;
                     max-width: 100%;
                     overflow: hidden;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    flex-grow:0;
+                    flex-grow: 0;
                     flex-shrink: 0;
-                    border: 1px solid #ddd;
                     border-bottom: none;
-
-
+                    border: 1px solid #ddd;
                     img {
                         max-width: 110%;
+                        min-width: 100%;
+                        min-height: 100%;
                         object-fit: cover;
                         transition: all 300ms linear;
-                        
                     }
                 }
                 .content {
@@ -274,45 +234,37 @@
                     flex-direction: column;
                     gap: 16px;
                     border: 1px solid #ddd;
-                    border-top: none;
+                    border-left: none;
                     transition: all 300ms;
-                    flex-grow:1;
+                    flex-grow: 1;
                     justify-content: space-between;
-
                     .texts {
                         display: flex;
                         flex-direction: column;
                         gap: 16px;
                         p {
                             color: $color-black;
-
                             &.h4 {
                                 color: $color-secondary-dark;
                                 text-align: center;
                             }
-
                             &.description {
                                 font-size: 16px;
                                 text-align: center;
-
                             }
                         }
                     }
                 }
-
                 &:hover {
-
                     img {
                         transform: scale(1.08);
                     }
                     .content {
-                        background-color: $color-primary;
-
+                        background-color: $color-primary-light;
                         p {
-                            color: $color-white;
+                            // color: $color-white;
                         }
                     }
-
                 }
             }
         }
@@ -324,7 +276,6 @@
     width: 100%;
     position: relative;
     padding-top: 40px;
-
     .bg-img {
         position: absolute;
         left: 0;
@@ -334,26 +285,22 @@
         background-image: url('/images/bg-graphics.jpg');
         background-position: top right;
         background-size: cover;
-
         @media (max-width: $bp-desktop-sm-max) {
             width: 100%;
         }
     }
-
     .ec-container {
         position: relative;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 32px;
         align-items: stretch;
-
         .left-content {
             display: flex;
             flex-direction: column;
             gap: 24px;
         }
     }
-
     .right-img {
         height: calc(100% - 40px);
         min-height: 300px;
@@ -372,25 +319,20 @@
 .home-testimonial {
     width: 100%;
     background-color: $color-gray-light;
-
     .ec-container {
         display: flex;
         flex-direction: column;
         gap: 24px;
-
         .testimonials-box {
             width: 100%;
             overflow: visible;
             padding: 0 20px 60px 20px;
             position: relative;
-            
             .swiper {
                 width: 100%;
-                
                 .swiper-slide {
                     padding: 0 12px;
                     height: auto;
-
                     .testimonial-item {
                         display: flex;
                         padding: 24px 32px;
@@ -402,30 +344,25 @@
                         width: 100%;
                         height: 100%;
                         background-color: $color-white;
-
                     }
-                    
                 }
             }
-
             .swiper-pagination {
                 .swiper-pagination-bullet-active {
                     background-color: $color-primary-dark !important;
                 }
             }
-
             .swiper-button-prev {
                 top: calc(50% - 30px);
-                left:  0px;
+                left: 0px;
                 &:after {
                     font-size: 24px;
                     color: $color-primary;
                 }
             }
-
             .swiper-button-next {
                 top: calc(50% - 30px);
-                right:  0px;
+                right: 0px;
                 &:after {
                     font-size: 24px;
                     color: $color-primary;

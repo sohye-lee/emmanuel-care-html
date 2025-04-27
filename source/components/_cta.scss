@@ -13,7 +13,6 @@
         background-color: $color-primary-dark;
         opacity: 0.4;
     }
-
     .content {
         position: relative;
         display: flex;
@@ -27,42 +26,46 @@
 // CONTACT CTA
 .contact-cta {
     width: 100%;
-    background-color: $color-secondary-dark;
-
+    background-color: $color-secondary-light;
+    form {
+        input,
+        textarea {
+            font-family: $font-family-primary;
+            border-color: $color-primary-dark;
+            color: $color-primary-dark-2;
+            &::placeholder {
+                color: $color-primary-dark;
+            }
+        }
+    }
     &.contact-page {
         background-color: $color-gray-light;
-
         .right-form {
-            input, textarea {
+            input,
+            textarea {
                 border-color: $color-primary-dark;
                 color: $color-primary-dark-2;
                 &::placeholder {
                     color: $color-primary-dark;
                     opacity: 0.8;
                 }
-                
             }
-
         }
     }
-
     .ec-container {
         padding: 50px 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 32px;
-
         .left-content {
             display: flex;
             flex-direction: column;
             gap: 24px;
         }
-
         .button.secondary {
             &:hover {
                 border: 2px solid $color-white !important;
             }
         }
-
     }
 }
