@@ -1,85 +1,83 @@
 #footer {
     background-color: $color-primary-dark-2;
-    
     .footer-wrapper {
         padding: 50px 0;
         display: flex;
         gap: 32px;
         justify-content: space-between;
-
-        p, a, span  {
+        p,
+        a,
+        span {
             color: $color-white;
             font-size: 14px;
         }
-
         .widget-title {
             flex-shrink: 0;
         }
-
         .footer-col-1 {
             display: flex;
             flex-direction: column;
             gap: 32px;
             max-width: 350px;
-
             .logo {
                 height: 50px;
-                
                 img {
                     height: 100%;
                     width: auto;
                 }
             }
-            
         }
-
-        .footer-col-2, .footer-col-3, .footer-col-4 {
+        .footer-col-2,
+        .footer-col-3,
+        .footer-col-4 {
             display: flex;
             flex-direction: column;
             gap: 16px;
         }
-
         .social-links {
             display: flex;
             align-items: center;
             justify-content: flex-start;
             gap: 12px;
             margin-top: 20px;
-
             img {
                 width: 30px;
-
+            }
+        }
+        form {
+            input {
+                color: $color-white;
+            }
+            input:focus,
+            input:active {
+                background-color: $color-white;
+                color: $color-primary-dark-2;
             }
         }
     }
-
     .ec-container.bottom {
-
         padding: 24px 0;
         display: flex;
         flex-direction: column;
         gap: 10px;
-        border-top: 1px solid rgba(255,255,255, 0.1);
-        
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
         .bottom-bar {
             display: flex;
             align-items: center;
             justify-content: space-between;
             font-size: 14px;
             color: $color-white;
-            
             .copyright {
                 color: $color-white;
                 font-size: 14px;
             }
-            
             .additional-links {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 gap: 24px;
-                
-                a, div {
+                a,
+                div {
                     color: $color-white;
                     font-size: 14px;
                 }
@@ -87,5 +85,3 @@
         }
     }
 }
-
- 

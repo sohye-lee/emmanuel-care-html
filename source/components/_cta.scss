@@ -36,6 +36,10 @@
             &::placeholder {
                 color: $color-primary-dark;
             }
+            &:focus,
+            &:active {
+                background-color: $color-white;
+            }
         }
     }
     &.contact-page {
